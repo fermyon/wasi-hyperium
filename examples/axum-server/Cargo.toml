@@ -9,5 +9,5 @@ crate-type = ["cdylib"]
 [dependencies]
 axum = { version = "0.8.1", default-features = false, features = ["macros"] }
 tower-service = "0.3.3"
-wasi = "0.14.2"
+wasi = "0.13.1"
 wasi-hyperium = { path = "../.." }

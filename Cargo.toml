@@ -20,4 +20,5 @@ http-body1 = { version = "1.0.1", package = "http-body", optional = true }
 thiserror = "2.0.12"
 
 tower-service = { version = "0.3.2", optional = true }
-wasi = "0.14.2"
+# Pin to the last version that targeted WASI 0.2.0
+wasi = "=0.13.1"
