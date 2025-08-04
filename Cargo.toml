@@ -2,6 +2,8 @@
 name = "wasi-hyperium"
 version = "0.3.0"
 edition = "2021"
+description = "Hyperium for WASI Preview2 HTTP"
+license = "Apache-2.0 WITH LLVM-exception"
 
 [features]
 # TODO: remove at least one of these
