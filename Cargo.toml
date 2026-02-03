@@ -13,7 +13,7 @@ hyperium1 = ["dep:http1", "dep:http-body1", "dep:bytes"]
 
 [dependencies]
 anyhow = "1.0.97"
-bytes = { version = "1.10.1", optional = true }
+bytes = { version = "1.11.1", optional = true }
 futures-util = "0.3.31"
 http0 = { version = "0.2.12", package = "http", optional = true }
 http-body0 = { version = "0.4.6", package = "http-body", optional = true }
